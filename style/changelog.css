@@ -1,0 +1,128 @@
+.body{
+    font-family: "Montserrat",sans-serif;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+ul{
+    list-style: none;
+    padding: 0;
+}
+.container{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.section{
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.section-title{
+    font-size: 42px;
+    font-weight: 800;
+    margin-bottom: 40px;
+}
+h1,h2,h3,h4,p,a,ul,.badge{
+    font-family: "Montserrat",sans-serif;
+}
+h1{
+    font-size: 50px;
+    font-weight: 500;
+}
+.badge{
+    margin-bottom: 20px;
+    font-weight: 500;
+    font-size: 15px;
+    padding: 5px 10px;
+}
+.change{
+    background-color: #3AAA55;
+    color: #fff;
+}
+.removed {
+    background: #3bbfe4;
+    color: #fff;
+}
+.added {
+    background: #3778FF;
+    color: #fff;
+}
+.depricated {
+    background: #343434;
+    color: #fff;
+}
+.security {
+    background: #F53535;
+    color: #fff;
+}
+.fixed {
+    background: #F54773;
+    color: #fff;
+}
+.badge.unreleased {
+    background: #A037FF;
+    color: #fff;
+}
+.content p {
+    font-weight: 400;
+}
+.content li{
+    position:  relative;
+    padding-left: 20px;
+}
+.content ul li::before{
+    position: absolute;
+    content: '';
+    height: 8px;
+    width: 8px;
+    border-radius: 50%;
+    background: #FF0043;
+    left: 3px;
+    top: 8px;
+}
+.form-control {
+    border: none;
+    border-bottom: 2px solid #eee;
+    border-radius: 0;
+    padding-left: 0;
+    box-shadow: none;
+}
+
+.form-control:focus {
+    border-color: #e23248;
+    box-shadow: none;
+}
+
+.btn-danger {
+    background-color: #e23248;
+    border: none;
+    border-radius: 8px;
+    padding: 8px 20px;
+    font-weight: bold;
+}
+.btn-danger:hover {
+    background-color: #d01e35;
+}
+.social-icons i{
+    padding: 0.5rem;
+    background: #FF0043;
+    color: #fff;
+    border-radius: 8px;
+}
+small a:hover{
+    color: #FF0043;
+}
+@media (max-width: 576px) {
+    .container{
+        max-width: 85%;
+    }
+    h1{
+        font-size: 30px;
+    }
+    body{
+        font-size: 13px;
+    }
+}

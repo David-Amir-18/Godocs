@@ -1,0 +1,328 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Varela+Round&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/themify-icons/0.1.2/css/themify-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./style/single.css">
+</head>
+<body>
+<nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top bg-white shadow-sm">
+    <div class="container">
+        <a class="navbar-brand" href="index.html"><img src="./assets/logo.png" alt="logo image"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse text-center " id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto mb-2 mb-lg-0 align-items-center">
+                <li class="nav-item">
+                    <a class="nav-link " aria-current="page" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="search.html">Search Page</a>
+                </li>
+            </ul>
+            <div class="d-lg-block d-none">
+                <div class="input-group search-box rounded">
+                    <input type="text" class="form-control border-0 rounded" placeholder="Search here ...">
+                    <span class="input-group-text bg-white border-0">
+                        <i class="bi bi-search search-icon text-danger"></i>
+                    </span>
+                </div>
+            </div>
+            <a href="changelog.html" class="btn btn-m btn-outline-danger ms-4">changelog</a>
+            <a href="contact.html" class="btn btn-m btn-danger ms-4">Contact</a>
+        </div>
+        <div class="d-lg-none d-block w-100 mt-2">
+            <div class="input-group search-box ">
+                <input type="text" class="form-control border-0" placeholder="Search here ...">
+                <span class="input-group-text bg-white border-0">
+                        <i class="bi bi-search search-icon text-danger"></i>
+                    </span>
+            </div>
+        </div>
+    </div>
+</nav>
+<section class="section">
+    <div class="container shadow section-sm rounded">
+        <div class="row">
+            <div class="col-lg-3">
+                <ul class="sidenav">
+                    <li title="Basic Startup" class="sidelist parent active">
+                        <a href="list.html">Basic Startup</a>
+                        <ul>
+                            <li class="sidelist"><a href="single.html">Elements</a></li>
+                            <li class="sidelist"><a href="single.html">Installation</a></li>
+                            <li class="sidelist"><a href="single.html">Configuration</a></li>
+                            <li class="sidelist"><a href="single.html">Customization</a></li>
+                            <li class="sidelist"><a href="single.html">Requirements</a></li>
+                        </ul>
+                    </li>
+                    <hr>
+                    <li>
+                        <a href="list.html">Account Bill</a>
+                    </li>
+                    <hr>
+                    <li>
+                        <a href="list.html">Our Feature</a>
+                    </li>
+                    <hr>
+                    <li>
+                        <a href="list.html">Theme Facility</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-lg-8">
+                <div class="px-lg-5 px-4">
+                    <h2 class="mb-4 fw-medium fs-1">Elements</h2>
+                    <div class="content">
+                        <h4 class="heading-example mb-2">Heading example</h4>
+                        <p>Here is example of hedings. You can use this heading by following markdownify rules. For example:
+                            use <span class="text-danger">#</span>  for heading 1 and use <span class="text-danger">######</span>  for heading 6.</p>
+                        <h1 class="heading-1">Heading-1</h1>
+                        <h2 class="heading-2">Heading-2</h2>
+                        <h3 class="heading-3">Heading-3</h3>
+                        <h4 class="heading-4">Heading-4</h4>
+                        <h5 class="heading-5">Heading-5</h5>
+                        <h6 class="heading-6">Heading-6</h6>
+                        <hr>
+                        <div class="section-title">Emphasis</div>
+                        <p>Emphasis, aka italics, with <em>asterisks</em>  or <em>underscores</em>.</p>
+                        <p>Strong emphasis, aka bold, with <strong>asterisks</strong> or <strong>underscores</strong>.</p>
+                        <p>Combined emphasis with <strong>asterisks and <em>underscores.</em> </strong> </p>
+                        <p>Strikethrough uses two tildes. <del>Scratch this.</del></p>
+                        <hr>
+                        <div class="section-title">Link</div>
+                        <p><a href="https://www.google.com">I’m an inline-style link</a></p>
+                        <p><a href="https://www.google.com" title="Google's Homepage">I’m an inline-style link with title</a></p>
+                        <p><a href="https://www.themefisher.com">I’m a reference-style link</a></p>
+                        <p><a href="../blob/master/LICENSE">I’m a relative reference to a repository file</a></p>
+                        <p><a href="https://gethugothemes.com">You can use numbers for reference-style link definitions</a></p>
+                        <p>Or leave it empty and use the <a href="https://www.getjekyllthemes.com">link text itself</a>.</p>
+                        <p>URLs and URLs in angle brackets will automatically get turned into links.
+                            <a href="http://www.example.com">http://www.example.com</a> or <a href="http://www.example.com">http://www.example.com</a> and sometimes
+                            example.com (but not on Github, for example).</p>
+                        <p>Some text to show that the reference links can follow later.</p>
+                        <hr>
+                        <div class="section-title">Paragraph</div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam nihil enim maxime corporis cumque totam
+                            aliquid nam sint inventore optio modi neque laborum officiis necessitatibus, facilis placeat pariatur!
+                            Voluptatem, sed harum pariatur adipisci voluptates voluptatum cumque, porro sint minima similique magni
+                            perferendis fuga! Optio vel ipsum excepturi tempore reiciendis id quidem? Vel in, doloribus debitis
+                            nesciunt fugit sequi magnam accusantium modi neque quis, vitae velit, pariatur harum autem a! Velit
+                            impedit atque maiores animi possimus asperiores natus repellendus excepturi sint architecto eligendi non,
+                            omnis nihil. Facilis, doloremque illum. Fugit optio laborum minus debitis natus illo perspiciatis corporis
+                            voluptatum rerum laboriosam.</p>
+                        <hr>
+                        <div class="section-title">Ordered List</div>
+                        <ol>
+                            <li>List item</li>
+                            <li>List item</li>
+                            <li>List item</li>
+                            <li>List item</li>
+                            <li>List item</li>
+                        </ol>
+                        <hr>
+                        <div class="section-title">Unordered List</div>
+                        <ul>
+                            <li>List item</li>
+                            <li>List item</li>
+                            <li>List item</li>
+                            <li>List item</li>
+                            <li>List item</li>
+                        </ul>
+                        <hr>
+                        <div class="section-title">Notice</div>
+                        <div class="notices note">
+                            <p>This is a simple note.</p>
+                        </div>
+                        <div class="notices tip">
+                            <p>This is a simple tip.</p>
+                        </div>
+                        <div class="notices info">
+                            <p>This is a simple info.</p>
+                        </div>
+                        <hr>
+                        <div class="section-title">Collapse</div>
+                        <div class="accordion" id="accordionPanelsStayOpenExample">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                                        Collapse 1
+                                    </button>
+                                </h2>
+                                <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+                                    <div class="accordion-body">
+                                        This is a simple collapse
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                                        Collapse 2
+                                    </button>
+                                </h2>
+                                <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+                                    <div class="accordion-body">
+                                        This is a simple collapse
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                                        Collapse 3
+                                    </button>
+                                </h2>
+                                <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
+                                    <div class="accordion-body">
+                                        This is a simple collapse
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="section-title">Code and Syntax Highlighting</div>
+                        <p>Inline <code>code</code> has <code>back-ticks around</code>  it.</p>
+                        <pre><code>var goDocs = 'hello world!';<br>console.log(goDocs);</code> <span class="copy-to-clipboard" onclick="copy()">copy</span>
+                        </pre>
+                        <hr>
+                        <div class="section-title">Blockqoute</div>
+                        <blockquote class="blockquote">
+                            <p>This is a blockquote example.</p>
+                        </blockquote>
+                        <hr>
+                        <div class="section-title">inline HTML</div>
+                        <p>You can also use raw HTML in your Markdown, and it’ll mostly work pretty well.</p>
+                        <dl>
+                            <dt>Definition list</dt>
+                            <dd>Is something people use sometimes.</dd>
+                            <dt>Markdown in HTML</dt>
+                            <dd>Does *not* work **very** well. Use HTML <em>tags</em>.</dd>
+                        </dl>
+                        <hr>
+                        <div class="section-title">Tables</div>
+                        <p>Colons can be used to align columns.</p>
+                        <table class="table table-striped table-hover">
+                            <thead>
+                            <tr>
+                                <th>Tables</th>
+                                <th align="center">Are</th>
+                                <th align="right">Cool</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td>col 3 is</td>
+                                <td align="center">right-aligned</td>
+                                <td align="right">$1600</td>
+                            </tr>
+                            <tr>
+                                <td>col 2 is</td>
+                                <td align="center">centered</td>
+                                <td align="right">$12</td>
+                            </tr>
+                            <tr>
+                                <td>zebra stripes</td>
+                                <td align="center">are neat</td>
+                                <td align="right">$1</td>
+                            </tr>
+                            </tbody>
+                        </table>
+                        <p>There must be at least 3 dashes separating each header cell.
+                            The outer pipes (|) are optional, and you don’t need to make the
+                            raw Markdown line up prettily. You can also use inline Markdown.</p>
+                        <table>
+                            <thead>
+                            <tr>
+                                <th>Markdown</th>
+                                <th>Less</th>
+                                <th>Pretty</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td><em>Still</em></td>
+                                <td><code>renders</code></td>
+                                <td><strong>nicely</strong></td>
+                            </tr>
+                            <tr>
+                                <td>1</td>
+                                <td>2</td>
+                                <td>3</td>
+                            </tr>
+                            </tbody>
+                        </table>
+                        <hr>
+                        <div class="section-title">Image</div>
+                        <p><img src="./assets/getting-started.jpg" alt="Getting Started" width="500px"></p>
+                        <hr>
+                        <div class="section-title">Youtube video</div>
+                        <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+                            <iframe src="https://www.youtube.com/embed/C0DPdy98e4c" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen="" title="YouTube Video"></iframe>
+                        </div>
+
+
+
+                    </div>
+                    <div class="pagination">
+                        <a href="https://examplesite.com/">
+                            <i class="bi bi-arrow-left-short me-2"></i>
+                            <span class="d-none d-md-block">Hugo Documentation Theme</span>
+                        </a>
+                        <a href="https://examplesite.com/">
+                            <span class="d-none d-md-block">Requirements</span>
+                            <i class="bi bi-arrow-right-short ms-2"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<footer>
+    <div class="container">
+        <div class="row align-items-center border-bottom py-5">
+            <div class="col-lg-4 mb-3 mb-lg-0">
+                <ul class="list-inline footer-menu text-center mb-0">
+                    <li class="list-inline-item"><a href="changelog.html">Changelog</a></li>
+                    <li class="list-inline-item"><a href="contact.html">Contact</a></li>
+                    <li class="list-inline-item"><a href="search.html">Search</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-4 text-center mb-4 mb-lg-0">
+                <a href="index.html" class="navbar-brand justify-content-center">
+                    <img src="./assets/logo.png" alt="logo" class="img-fluid">
+                </a>
+            </div>
+            <div class="col-lg-4">
+                <ul class="list-inline social-icons text-lg-end text-center mb-0">
+                    <li class="list-inline-item"><a href="#"><i class="bi bi-facebook"></i></a></li>
+                    <li class="list-inline-item"><a href="#"><i class="bi bi-twitter"></i></a></li>
+                    <li class="list-inline-item"><a href="#"><i class="bi bi-github"></i></a></li>
+                    <li class="list-inline-item"><a href="#"><i class="bi bi-linkedin"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="py-4 text-center">
+            <small class="">
+                Copyright © 2020 a hugo theme by
+                <a href="https://themefisher.com/" s>themefisher</a>
+            </small>
+        </div>
+    </div>
+</footer>
+
+<script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<script src="./single.js"></script>
+<script src="./main.js"></script>
+</body>
+</html>

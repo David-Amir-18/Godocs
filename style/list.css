@@ -1,0 +1,125 @@
+.body{
+    font-family: "Montserrat",sans-serif;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+ul{
+    list-style: none;
+    padding: 0;
+}
+.container{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.section{
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.section-sm{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.section-title{
+    font-size: 42px;
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+h1,h2,h3,h4,p,a,ul,form{
+    font-family: "Montserrat",sans-serif;
+}
+.form-control {
+    border: none;
+    border-bottom: 2px solid #eee;
+    border-radius: 0;
+    padding-left: 0;
+    box-shadow: none;
+}
+
+.form-control:focus {
+    border-color: #e23248;
+    box-shadow: none;
+}
+
+.btn-danger {
+    background-color: #e23248;
+    border: none;
+    border-radius: 8px;
+    padding: 8px 20px;
+    font-weight: bold;
+}
+.btn-danger:hover {
+    background-color: #d01e35;
+}
+.social-icons i{
+    padding: 0.5rem;
+    background: #FF0043;
+    color: #fff;
+    border-radius: 8px;
+}
+small a:hover{
+    color: #ff0043;
+}
+.sidenav{
+    border-right: 1px solid #e2e2e2;
+    padding-right:  20px;
+    padding-left: 40px;
+}
+.sidenav>li{
+    color: #222222;
+    font-weight: 500;
+    font-size: 18px;
+    margin: 20px 0;
+}
+.sidenav ul{
+    padding-left: 15px;
+    font-weight: 400;
+    font-size: 14px;
+}
+.sidenav ul li{
+    padding: 8px 0;
+}
+li[title="Basic Startup"]>a{
+    color: #ff0043;
+    position: relative;
+}
+li[title="Basic Startup"]>a::before{
+    content: "";
+    position: absolute;
+    left: -10px;
+    top: 5%;
+    height: 100%;
+    width: 1px;
+    background: #FF0043;
+}
+.pagination{
+    display: flex;
+    justify-content: space-between;
+}
+.pagination a{
+    display: flex;
+    align-items: center;
+    color: #ff0043;;
+    font-weight: 500;
+}
+.pagination i{
+    font-size: 28px;
+}
+@media (max-width: 576px) {
+    img[src="./assets/getting-started.jpg"]{
+        max-width: 90%;
+    }
+    .container{
+        max-width: 85%;
+    }
+    body{
+        font-size: 13px;
+    }
+}
+/*  #ff0043 red
+    #222222 gray
+*/
