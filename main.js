@@ -1,7 +1,6 @@
 const input = document.querySelector('.search-box input');
 input.addEventListener("keypress", (event) => {
     if (event.key === "Enter") {
-        event.preventDefault();
         window.location.href="search.html";
     }
 })
